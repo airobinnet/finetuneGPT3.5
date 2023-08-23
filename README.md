@@ -22,11 +22,12 @@ This is a Python script that demonstrates how to use OpenAI's GPT-3.5-Turbo fine
     ```
 3. Prepare your [JSONL](https://jsonlines.org/validator/) dataset and edit the `FILENAME`, `SYSTEMPROMPT` and `USERPROMPT`
 
-JSONL Format
-    ```
-    {"messages": [  {"role": "system", "content": "systemprompt to train on"},  {"role": "user", "content": "userdata to train on"},  {"role": "assistant", "content": "responses to train on"}]}
-    {"messages": [  {"role": "system", "content": "more systemprompts to train on"},  {"role": "user", "content": "more userdata to train on"},  {"role": "assistant", "content": "more responses to train on"}]}
-    ```
+4. Start the code
+
+   ```sh
+   python main.py
+   ```
+
 ## Usage
 
 This script consists of the following steps:
