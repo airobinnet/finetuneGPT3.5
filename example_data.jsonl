@@ -1,0 +1,2 @@
+{"messages": [ {"role": "system", "content": "systemprompt to train on"}, {"role": "user", "content": "userdata to train on"},  {"role": "assistant", "content": "responses to train on"}]}
+{"messages": [ {"role": "system", "content": "more systemprompts to train on"}, {"role": "user", "content": "more userdata to train on"},  {"role": "assistant", "content": "more responses to train on"}]}
